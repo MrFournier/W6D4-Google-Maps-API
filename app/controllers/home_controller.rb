@@ -7,4 +7,8 @@ class HomeController < ApplicationController
   def marker
     render :marker
   end
+
+  def info
+    render :info_window
+  end
 end

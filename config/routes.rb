@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   get '/marker', to: 'home#marker'
+  get '/info', to: 'home#info'
 
 end
